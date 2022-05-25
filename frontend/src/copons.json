@@ -1,0 +1,26 @@
+[
+    {
+        "type": "header",
+        "version": "5.0.2",
+        "comment": "Export to JSON plugin for PHPMyAdmin"
+    },
+    {
+        "type": "database",
+        "name": "test"
+    },
+    {
+        "type": "table",
+        "name": "governorates",
+        "database": "test",
+        "data": [
+            {   
+                "ramadan": 100,
+                "eid":150
+                
+
+            }
+         
+           
+        ]
+    }
+]

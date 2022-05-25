@@ -1,0 +1,119 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  background-color: white;
+  margin-top: 5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.insideForm {
+  width: 35rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+  box-shadow: rgba(187, 187, 217, 0.25) 0px 30px 60px -12px inset,
+    rgba(236, 207, 207, 0.3) 0px 18px 36px -18px inset;
+}
+.form h6 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.inputContainer {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.inputContainer label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 12px 10.5rem;
+  cursor: pointer;
+  position: relative;
+}
+.inputContainer label:hover {
+  color: blueviolet;
+}
+
+.inputContainer input {
+  opacity: 0.5;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 0px;
+  width: 10%;
+  height: 2em;
+  left: -1rem;
+  margin-top: 0.1rem;
+}
+
+.text {
+  color: var(--other);
+  font-weight: bold;
+}
+input:checked {
+  opacity: 1;
+}
+input:hover input:focus {
+  border: 1px solid var(--primary);
+}
+
+input:hover + .design:before,
+input:focus + .design:before {
+  background: var(--primary);
+}
+
+input:hover ~ .text {
+  color: var(--primary);
+}
+.insideForm .btn {
+  background: linear-gradient(90deg, rgb(171, 208, 236), rgb(224, 229, 234) 40%, rgb(181, 218, 247) 100%);
+
+  /* background: darkcyan; */
+  /* background-image: linear-gradient(
+    to left bottom,
+    #0065db,
+    #3d64d8,
+    #5762d5,
+    #6a60d2,
+    #7a5fce,
+    #865ecb,
+    #915cc7,
+    #9b5bc3,
+    #a55abe,
+    #ae5aba,
+    #b65ab5,
+    #bd5ab0
+  ); */
+  border-radius: 2px;
+  width: 50%;
+  height: 33px;
+  border: 1px solid;
+  border-radius: 12px;
+  margin-top: 1rem;
+  border-color: #a88734 #9c7e31 #846a29;
+  margin: auto;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* .hint {
+  color: red;
+  font-weight: 700;
+  background-color: rgb(144, 221, 235);
+  border-radius: 10px;
+} */

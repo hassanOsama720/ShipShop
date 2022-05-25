@@ -1,0 +1,111 @@
+/* body {
+  padding-top: 20px;
+} */
+
+/* .invalid-feedback {
+  display: block !important;
+} */
+
+.formLogin {
+  margin-top: "2rem";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  background-color: white;
+  text-align: center;
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.formLogin h3 {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.input {
+  height: 2.2rem;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+  border-radius: 0.2rem;
+}
+.selectBox {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #e6e6e6;
+  border-radius: 4px;
+}
+
+::-moz-placeholder {
+  color: peachpuff;
+  font-size: 13px;
+}
+.select {
+  font-size: 1rem;
+  font-weight: 700;
+  max-width: 100%;
+  padding: 1px 24px 8px 20px;
+  border: "1px solid black ";
+  border-radius: 2px;
+  text-align: center;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 2rem;
+  margin-top: 1rem;
+}
+.button {
+  background: linear-gradient(90deg, rgb(171, 208, 236), rgb(224, 229, 234) 40%, rgb(181, 218, 247) 100%);
+
+  /* background: darkcyan; */
+  /* background-image: linear-gradient(
+    to left bottom,
+    #0065db,
+    #3d64d8,
+    #5762d5,
+    #6a60d2,
+    #7a5fce,
+    #865ecb,
+    #915cc7,
+    #9b5bc3,
+    #a55abe,
+    #ae5aba,
+    #b65ab5,
+    #bd5ab0
+  ); */
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 12px;
+  margin-top: 1rem;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.selectBox select:active,
+.select-dropdown select:focus {
+  outline: none;
+  box-shadow: none;
+}
+.selectBox:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 0;
+  height: 0;
+  margin-top: -2px;
+  border-top: 5px solid #aaa;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}

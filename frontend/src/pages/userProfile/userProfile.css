@@ -1,0 +1,74 @@
+/* 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: #a097c4;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* overflow: hidden; */
+/* margin: 0px; */
+/* }  */
+
+h3 {
+  margin: 10px 0;
+}
+
+h6 {
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.card-container {
+  margin-top: 5%;
+  margin-left: 5%;
+  /* background-color: #231e39; */
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #022b5d,
+    #003e85,
+    #0051af,
+    #0065db
+  );
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #b3b8cd;
+  padding-top: 30px;
+  position: relative;
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
+  height: 400px;
+}
+
+.card-container .round {
+  border: 1px solid #03bfcb;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+button.primary {
+  background-color: #051937;
+  border: 1px solid #03bfcb;
+  border-radius: 3px;
+  color: #231e39;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  padding: 10px 25px;
+  margin: 3px;
+  margin-top: 80px;
+}
+
+button.primary.ghost {
+  background-color: transparent;
+  color: #02899c;
+}

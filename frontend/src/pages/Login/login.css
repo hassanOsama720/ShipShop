@@ -1,0 +1,179 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+.login__logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  object-fit: contain;
+}
+.login__container {
+  width: 340px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+.login__container > h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #000;
+}
+.login__container > form > h5 {
+  margin-bottom: 5px;
+  font-size: 0.999rem;
+  font-weight: 650;
+}
+.login__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+
+  width: 98%;
+}
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.login__signin__button {
+  /* background: #6461d3; */
+  font-weight: 700;
+  background: linear-gradient(90deg, rgb(171, 208, 236), rgb(224, 229, 234) 40%, rgb(181, 218, 247) 100%);
+
+  /* background-image: linear-gradient(
+    to left bottom,
+    #0065db,
+    #3d64d8,
+    #5762d5,
+    #6a60d2,
+    #7a5fce,
+    #865ecb,
+    #915cc7,
+    #9b5bc3,
+    #a55abe,
+    #ae5aba,
+    #b65ab5,
+    #bd5ab0
+  ); */
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #9dc1eb #b8b6f8 #d8c7ef;
+}
+
+.login__registerbutton {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  background-color: #5199f3;
+  border-color: darkgray;
+}
+/* ===================== */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errMsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.line {
+  display: inline-block;
+}
+button a {
+  text-decoration: none;
+  color: black;
+}
+button a:hover {
+  color: #c1a875;
+}
+/* ---------- Facebook / Google ---------------- */
+.login_page .hr {
+  margin: 15px 0;
+  color: crimson;
+}
+
+.login_page .social button {
+  width: 100%;
+  margin: 10px 0;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 200;
+  text-transform: capitalize;
+  letter-spacing: 1.3px;
+  box-shadow: 0 2px 4px #777;
+  border-radius: 2px;
+  /* width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px; */
+}
+.social {
+  margin-top: 1rem;
+  margin: auto;
+}
+.google {
+  text-align: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+.google span {
+  margin-left: 2.5rem;
+}
